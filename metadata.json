@@ -1,0 +1,6 @@
+{
+  "name": "Personalized Scrapbook Greeting",
+  "description": "An intimate, full-screen storybook narrative digital letter crafted as a beautiful personalized scrapbook card with custom audio, polaroid stack, and gorgeous tactile 3D cards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

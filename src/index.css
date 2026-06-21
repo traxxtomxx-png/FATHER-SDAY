@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,100..400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,100..400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-script: "Caveat", cursive;
+  --font-sans: "Quicksand", system-ui, sans-serif;
+  
+  --color-cream-light: #FAF7F0;
+  --color-cream-dark: #F5F0E6;
+  --color-navy: #1E2A3A;
+  --color-slate: #5B6573;
+  --color-sky-blue: #4A90D9;
+  --color-sky-blue-hover: #3D7FC4;
+  --color-dusty-rose: #E8889B;
+  --color-mustard-gold: #D4A24C;
+}
+
+body {
+  background-color: #FAF7F0;
+  color: #1E2A3A;
+  font-family: "Quicksand", system-ui, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
