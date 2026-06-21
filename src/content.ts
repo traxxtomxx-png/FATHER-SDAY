@@ -143,7 +143,7 @@ export const contentConfig: ContentConfig = {
       "this little digital scrapbook is just a tiny token of my love. no matter how old i get, or where life's adventures take me, you will always be my first hero, my teacher, and my deepest inspiration. forver even in next lives i want to be your son and you my dad.",
     ],
     signOff: "with all my love,",
-    sender: "★ your baban",
-    footer: "with love · your captain",
+    sender: "★ your captain",
+    footer: "with love · your baban",
   },
 };
