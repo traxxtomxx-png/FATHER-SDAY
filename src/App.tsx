@@ -65,13 +65,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen w-full bg-[#FAF7F0] bg-gradient-to-b from-[#FAF7F0] to-[#F5F0E6] text-navy flex flex-col items-center justify-center p-4 relative overflow-hidden font-sans">
-      <audio id="global-audio" src={customAudioUrl || "/Papa Meri Jaan Animal 128 Kbps.mp3"} preload="metadata" loop />
+      <audio id="global-audio" src={customAudioUrl || "./Papa Meri Jaan Animal 128 Kbps.mp3"} preload="metadata" loop />
       
       {/* Ambient Background Elements from the Design Spec (shown on desktop only for premium visual polish) */}
       <div className="hidden lg:block absolute top-12 left-12 w-48 h-64 bg-white rotate-[-6deg] p-3 pb-5 shadow-[0_12px_28px_rgba(30,42,58,0.08)] border border-[#9BC4EA]/30 rounded-xs select-none hover:rotate-[-2deg] transition-transform duration-500 group">
         <div className="w-full h-44 bg-slate-100 rounded-sm overflow-hidden mb-3">
           <img 
-            src="/photos/then.jpeg" 
+            src="./photos/then.jpeg" 
             alt="then memory" 
             className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
             referrerPolicy="no-referrer"
@@ -83,7 +83,7 @@ export default function App() {
       <div className="hidden lg:block absolute bottom-12 right-12 w-48 h-64 bg-white rotate-[8deg] p-3 pb-5 shadow-[0_12px_28px_rgba(30,42,58,0.08)] border border-[#E0B86B]/30 rounded-xs select-none hover:rotate-[3deg] transition-transform duration-500 group">
         <div className="w-full h-44 bg-slate-100 rounded-sm overflow-hidden mb-3">
           <img 
-            src="/photos/now.jpeg" 
+            src="./photos/now.jpeg" 
             alt="now memory" 
             className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
             referrerPolicy="no-referrer"

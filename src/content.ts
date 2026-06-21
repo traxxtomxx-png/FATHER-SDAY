@@ -82,7 +82,7 @@ export const contentConfig: ContentConfig = {
     body: "thank you for being the quiet force that holds everything together. in a world that is always changing, you are my steadiest anchor, my advisory counsel, and my favorite storyteller. this is a tiny space built just to say thank you.",
     audioTitle: "Papa Meri Jaan",
     audioSubtitle: "SONU NIGAM",
-    audioSrc: "/Papa Meri Jaan Animal 128 Kbps.mp3",
+    audioSrc: "./Papa Meri Jaan Animal 128 Kbps.mp3",
     audioCaption: "A song for my superhero",
   },
   gallery: {
@@ -91,17 +91,17 @@ export const contentConfig: ContentConfig = {
     memories: [
       {
         id: 1,
-        image: "/photos/pic1.jpeg",
+        image: "./photos/pic1.jpeg",
         caption: "the way you make everything feel steady — hope you always know it.",
       },
       {
         id: 2,
-        image: "/photos/pic2.jpeg",
+        image: "./photos/pic2.jpeg",
         caption: "every lesson and every dad-joke turned out to be the best memory.",
       },
       {
         id: 3,
-        image: "/photos/pic3.jpeg",
+        image: "./photos/pic3.jpeg",
         caption: "thank you for being my first hero, and my steadiest one.",
       },
     ],
